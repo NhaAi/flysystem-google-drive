@@ -1,11 +1,11 @@
 {
-    "name": "nao-pon/flysystem-google-drive",
+    "name": "nhaai/flysystem-googledrive",
     "description": "Flysystem adapter for Google Drive",
     "license": "MIT",
     "authors": [
         {
-            "name": "Naoki Sawada",
-            "email": "hypweb@gmail.com"
+            "name": "Minh Tu Pham",
+            "email": "minhtu.bk14@gmail.com"
         }
     ],
     "require": {
@@ -15,12 +15,12 @@
         "nao-pon/flysystem-cached-extra": "~1.0"
     },
     "require-dev": {
-        "phpunit/phpunit": "~4.0",
+        "phpunit/phpunit": ">=4.0",
         "mockery/mockery": "0.9.*"
     },
     "autoload": {
         "psr-4": {
-            "Hypweb\\Flysystem\\GoogleDrive\\": "src/"
+            "Nhaai\\Flysystem\\GoogleDrive\\": "src/"
         }
     },
     "config": {
